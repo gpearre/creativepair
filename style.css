@@ -1,0 +1,24 @@
+div {
+	margin: o;
+	padding: 0;
+}
+
+.logo {
+    width: 350px;
+    height: 238px;
+
+    position: absolute;
+    top: 230px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+}
+
+body {
+	background-image: url("images/splash_bg-hands.jpg");
+	background-repeat: no-repeat;
+	background-position: 20px -100px;
+	background-size: 100%;
+}
