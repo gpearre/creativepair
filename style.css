@@ -31,5 +31,10 @@ body {
 em {
     font-size: 28px;
     font-weight: bold;
+    top: 230px;
+    bottom: 0;
+    left: 0;
+    right: 0;
 
+    margin: auto;
 }
