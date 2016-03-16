@@ -38,10 +38,31 @@ div {
 em {
     font-size: 28px;
     font-weight: bold;
-    top: 230px;
-    bottom: 0;
-    left: 0;
-    right: 0;
-
-    margin: auto;
+}
+.newsandevents {
+    width: 100%;
+    height: 600px;
+    top: 600px;
+    position: absolute;
+    background-color: #4d4d4d;
+}
+.photographyevents {
+    position: relative;
+    width: 45%;
+    margin-left: 15px;
+    height: 570px;
+    top: 15px;
+    background-color: #c0c0c0;
+    border-radius: 30px;
+    float: left;
+}
+.webevents {
+    position: relative;
+    width: 45%;
+    margin-right: 15px;
+    height: 570px;
+    top: 15px;
+    background-color: #c0c0c0;
+    border-radius: 30px;
+    float: right;
 }
