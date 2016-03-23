@@ -30,6 +30,78 @@ div {
 	background-size: 100%;
 }
 
+.contact {
+	width: 100%;
+	height: 600px;
+	background-color: #db4c44;
+	background-image: url("images/bg-pirate.jpg");
+	background-repeat: no-repeat;
+	background-position: -10px;
+	top: 1170px;
+	position: absolute;
+	font-family: 'Lobster Two', cursive;
+}
+.contact p {
+	font-size: 28px;
+	font-weight: 700;
+
+}
+
+span {
+	font-size: 20px;
+}
+label small {
+	margin-left: 6px;
+	color: #db4c44;
+	font-size: 10px;
+	font-weight: 700;
+	font-family: normal;
+	text-transform: uppercase;
+}
+.client_lead_form {
+	width: 400px;
+	height: 500px;
+	top: 45px;
+	right: 84px;
+	position: relative;
+	float: right;
+}
+
+.client_lead_form li {
+	list-style: none;
+}
+
+.formfield {
+	display: block;
+	width: 250px;
+	height: 35px;
+	font-size: 18px;
+	font-family: Impact, Charcoal, sans-serif;
+}
+ textarea {
+	display: block;
+	width: 250px;
+	height: 80px;
+	font-size: 14px;
+	font-family: normal;
+}
+button {
+	color: white;
+	cursor: pointer;
+	background: linear-gradient(rgb(79, 184, 66) 0%, rgb(53, 158, 40) 50%, rgb(28, 133, 15) 100%);
+	font-size: 20px;
+	font-weight: 700;
+	min-width: 200px;
+	width: 225px;
+	margin: auto;
+	height: 52px;
+	border-radius: 6px;
+	font-family: Arial;
+	position: relative;
+	float: both;
+	-webkit-appearance: button;
+	border: 1px solid rgb(28, 133, 15);
+}
 .splash {
     font-family: 'Lobster Two', cursive;
     font-size: 20px;
@@ -138,6 +210,4 @@ em {
 	margin: 0px;
 }
 
-.media-heading {
 
-}

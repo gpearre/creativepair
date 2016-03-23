@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<script type="text/javascript" src="https://bam.nr-data.net/1/92076982d2?a=13747534&amp;v=885.a559836&amp;to=cl5eFRAMVFRSRxZXCFNUVE4EDEpVGEZRXRI%3D&amp;rst=831&amp;ap=37&amp;be=354&amp;fe=416&amp;dc=379&amp;f=%5B%5D&amp;perf=%7B%22timing%22:%7B%22of%22:1458693775049,%22n%22:0,%22dl%22:177,%22di%22:720,%22ds%22:720,%22de%22:737,%22dc%22:770,%22l%22:770,%22le%22:771,%22f%22:89,%22dn%22:89,%22dne%22:89,%22c%22:89,%22ce%22:89,%22rq%22:97,%22rp%22:170,%22rpe%22:177%7D,%22navigation%22:%7B%7D%7D&amp;jsonp=NREUM.setToken"></script>
+		<script src="https://js-agent.newrelic.com/nr-885.min.js"></script>
+		<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"92076982d2","applicationID":"13747534","transactionName":"cl5eFRAMVFRSRxZXCFNUVE4EDEpVGEZRXRI=","queueTime":0,"applicationTime":37,"agent":""}</script>
+		<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(e,t){function n(){}function r(e){function t(e){return e&&e instanceof n?e:e?a(e,i,o):o()}function s(n,r,o){e&&e(n,r,o);for(var i=t(o),a=l(n),u=a.length,f=0;u>f;f++)a[f].apply(i,r);var s=c[w[n]];return s&&s.push([h,n,r,i]),i}function p(e,t){g[e]=l(e).concat(t)}function l(e){return g[e]||[]}function d(e){return f[e]=f[e]||r(s)}function v(e,t){u(e,function(e,n){t=t||"feature",w[n]=t,t in c||(c[t]=[])})}var g={},w={},h={on:p,emit:s,get:d,listeners:l,context:t,buffer:v};return h}function o(){return new n}var i="nr@context",a=e("gos"),u=e(1),c={},f={},s=t.exports=r();s.backlog=c},{1:12,gos:"7eSDFh"}],ee:[function(e,t){t.exports=e("QJf3ax")},{}],3:[function(e,t){function n(e,t){return function(){r(e,[(new Date).getTime()].concat(i(arguments)),null,t)}}var r=e("handle"),o=e(1),i=e(2);"undefined"==typeof window.newrelic&&(newrelic=NREUM);var a=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit"],u=["addPageAction"],c="api-";o(a,function(e,t){newrelic[t]=n(c+t,"api")}),o(u,function(e,t){newrelic[t]=n(c+t)}),t.exports=newrelic,newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),r("err",[e,(new Date).getTime()])}},{1:12,2:13,handle:"D5DuLP"}],gos:[function(e,t){t.exports=e("7eSDFh")},{}],"7eSDFh":[function(e,t){function n(e,t,n){if(r.call(e,t))return e[t];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return e[t]=o,o}var r=Object.prototype.hasOwnProperty;t.exports=n},{}],handle:[function(e,t){t.exports=e("D5DuLP")},{}],D5DuLP:[function(e,t){function n(e,t,n,o){r.buffer([e],o),r.emit(e,t,n)}var r=e("ee").get("handle");t.exports=n,n.ee=r},{ee:"QJf3ax"}],XL7HBI:[function(e,t){function n(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:i(e,o,function(){return r++})}var r=1,o="nr@id",i=e("gos");t.exports=n},{gos:"7eSDFh"}],id:[function(e,t){t.exports=e("XL7HBI")},{}],G9z0Bl:[function(e,t){function n(){if(!v++){var e=d.info=NREUM.info,t=f.getElementsByTagName("script")[0];if(e&&e.licenseKey&&e.applicationID&&t){u(p,function(t,n){e[t]||(e[t]=n)});var n="https"===s.split(":")[0]||e.sslForHttp;d.proto=n?"https://":"http://",a("mark",["onload",i()],null,"api");var r=f.createElement("script");r.src=d.proto+e.agent,t.parentNode.insertBefore(r,t)}}}function r(){"complete"===f.readyState&&o()}function o(){a("mark",["domContent",i()],null,"api")}function i(){return(new Date).getTime()}var a=e("handle"),u=e(1),c=window,f=c.document;NREUM.o={ST:setTimeout,XHR:c.XMLHttpRequest,REQ:c.Request,EV:c.Event,PR:c.Promise,MO:c.MutationObserver},e(2);var s=(""+location).split("?")[0],p={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-885.min.js"},l=window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent),d=t.exports={offset:i(),origin:s,features:{},xhrWrappable:l};f.addEventListener?(f.addEventListener("DOMContentLoaded",o,!1),c.addEventListener("load",n,!1)):(f.attachEvent("onreadystatechange",r),c.attachEvent("onload",n)),a("mark",["firstbyte",i()],null,"api");var v=0},{1:12,2:3,handle:"D5DuLP"}],loader:[function(e,t){t.exports=e("G9z0Bl")},{}],12:[function(e,t){function n(e,t){var n=[],o="",i=0;for(o in e)r.call(e,o)&&(n[i]=t(o,e[o]),i+=1);return n}var r=Object.prototype.hasOwnProperty;t.exports=n},{}],13:[function(e,t){function n(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(0>o?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=n},{}]},{},["G9z0Bl"]);</script>
+
 		<link href="style.css" type="text/css" rel="stylesheet" />
 		<link href='https://fonts.googleapis.com/css?family=Lobster+Two|Cinzel|Julius+Sans+One|Syncopate|Fredericka+the+Great|Grand+Hotel|Vast+Shadow|Ribeye+Marrow' rel='stylesheet' type='text/css' />
 		<title>Creative Pair - Photography and Web Solutions</title>
@@ -90,9 +95,183 @@
 		</div>
 
 		<div class="contact">
+			<div>
+				<div class="client_lead_form">
+	          		<form id="lead_form" class="paper-form lc_form" onsubmit="return saveLeadForm()">
+            		<p>ARRRRGGHHH....you ready to contact us?</p>
+            		<ul class="questions">
+              			<li>
+    						<label>
+      							<span>Name</span>
+        						<small data-bind="if: required">required</small>
+    						</label>
+    						<input class="formfield" type="text" name="q2844020" data-parsley-required="true">
+						</li>
+						<li>
+    						<label>
+      							<span>Email Address</span>
+        						<small data-bind="if: required">required</small>
+    						</label>
+    						<input class="formfield" type="text" name="q2844023" data-parsley-required="true" data-parsley-type="email">
+						</li>
+						<li>
+    						<label>
+      							<span>Phone Number</span>
+    						</label>
+    						<input class="formfield" type="text" name="q2844026" data-parsley-required="false">
+						</li>
+						<li>
+    						<label>
+      							<span>Message</span>
+       		 					<small data-bind="if: required">required</small>
+    						</label>
+    						<textarea name="q2844029" data-parsley-required="true" class="answer"></textarea>
+						</li>
+            		</ul>
+            		<div class="submit_form">
+              			<button type="button" id="lc_form_submit" class="btn btn-success btn-lg">Submit</button>
+            		</div>
+					</form>
+            		<div class="submit_msg" id="lc_submit_msg" style="display:none;">
+             	 		<center>
+                			<div class="msg">
+                  				<p>http://www.creativepair.us</p>
+                			</div>
+                			<button type="button" id="lc_close_form" class="btn btn-success btn-lg" style="border-color: rgb(28, 133, 15); background: linear-gradient(rgb(79, 184, 66) 0%, rgb(53, 158, 40) 50%, rgb(28, 133, 15) 100%);">OK</button>
+              			</center>
+            		</div>
+        		</div>
+      		</div>
 		</div>
 
 		<div class="footer">
 		</div>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.7.0/moment.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.3.1/moment-timezone.min.js"></script>
+<script src="/assets/embed_forms-a6de110826cdd8947fd9b9d59bfce4a35fa88d1785cfcd503b1e6765050df7b5.js"></script>
+<script type="text/javascript">
+      jQuery(function ($) {
+        $('.answerdate').datepicker();
+
+        $('#lc_form_submit').click(function(e){
+          saveLeadForm();
+          return false;
+        });
+
+        $('#lc_close_form').click(function(e){
+          hideForm();
+          $('#lc_submit_msg').hide();
+          $('#lead_form').show();
+        });
+
+        var buttonColor =  '#359e28';
+        if(buttonColor) {
+            utils.customButtonColor(buttonColor, $('.btn-success'));
+        }
+
+          $('#lead_form').show();
+
+      });
+
+      function resetForm($form) {
+        $form.find('input:text, input:password, input:file, select, textarea').val('');
+        $form.find('input:radio, input:checkbox')
+          .removeAttr('checked').removeAttr('selected');
+      }
+
+      function displayMessage(error) {
+          if (error) {
+              $('#lc_submit_msg .msg').html(error);
+          }
+          $('#lc_submit_msg').show();
+          $('#lead_form').hide();
+      }
+
+      function hideForm() {
+        // Closes iframe form
+        if (window.parent.postMessage) {
+          window.parent.postMessage('hide_form', '*');
+        }
+      }
+
+      var submitting = false;
+
+      function showPageSuccess (data, textStatus, jqXHR) {
+        var $form = $('#lead_form');
+             window.top.location.href = 'http://www.creativepair.us';
+        submitting = false;
+      }
+
+      function updatePageSuccess (data, textStatus, jqXHR) {
+        var $form = $('#lead_form');
+             var newLink = $("<a />", {
+                 id     : "submit-redirect",
+                 name   : "link",
+                 href   : "http://www.creativepair.us", //TODO Make sure links are right
+                 target : "_blank",
+                 text   : "http://www.creativepair.us"
+             })[0].click();
+        resetForm($form);
+
+        // Closes iframe form
+        if (window.parent.postMessage) {
+          window.parent.postMessage('hide_form', '*');
+        }
+        submitting = false;
+      }
+
+      function saveLeadForm () {
+        var $form = $('#lead_form');
+        var errorMessage = '<p>Unfortunately there was a problem sending your information. Please try resubmitting, if this does not work reload the page and try again.</p>';
+        if ($form.parsley().validate() && !submitting) {
+          submitting = true;
+          var answers = $form.find('[name^=q]').get().reduce(function (out, field) {
+            var $field = $(field);
+            var id = parseInt($field.attr('name').replace(/\D/g, ''));
+            var value = $field.val();
+            out[id] = out[id] || '';
+            if (['radio', 'checkbox'].indexOf($field.attr('type')) == -1 || $field.is(':checked')) {
+              out[id] += (out[id] ? ', ' : '' ) + $field.val();
+            }
+            if ($field.hasClass('date') && out[id] != '') {
+              try {
+                out[id] = { orig: out[id], formatted: moment(out[id]).format("YYYY-MM-DDT00:00:00") };
+              } catch (ex) { console.error(ex); }
+            }
+            return out;
+          }, {});
+          var data = {
+            answers: Object.keys(answers).map(function (question) {
+              return {
+                question: question,
+                answer: answers[question]
+              };
+            })
+          };
+
+            data.lead_funnel_form_id = 52856;
+
+          if (data.answers && !!data.answers.length) {
+            $.ajax({
+              method: 'POST',
+              url: '/client/lead-capture-form/ktkwzfnwdxkwdpckxzkxwdwffxvkftkz',
+              accepts: 'application/json',
+              contentType: 'application/json',
+              data: JSON.stringify(data),
+              error: function (jqXHR, textStatus, errorThrown) {
+                displayMessage(errorMessage);
+                submitting = false;
+              },
+              success: showPageSuccess
+            });
+          } else {
+            displayMessage(errorMessage);
+          }
+          return false;
+        }
+      }
+    </script>
 	</body>
 </html>
