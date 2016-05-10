@@ -27,6 +27,8 @@ div {
 	padding-right: 10px;
 	margin-right: 20px;
 	color: #ffffff;
+	font-family: arial;
+	font-weight: bold;
 }
 .header li a {
 	text-decoration: none;
