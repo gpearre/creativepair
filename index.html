@@ -4,8 +4,11 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
 		<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
 		<link href="style.css" type="text/css" rel="stylesheet" />
+		<link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+		<link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
 		<link href='https://fonts.googleapis.com/css?family=Lobster+Two|Cinzel|Julius+Sans+One|Syncopate|Fredericka+the+Great|Grand+Hotel|Vast+Shadow|Ribeye+Marrow' rel='stylesheet' type='text/css' />
 		<script src="./script.js" type="text/javascript"></script>
+		<script src="owlcarousel/owl.carousel.min.js"></script>
 		<title>Creative Pair - Photography and Web Solutions</title>
 	</head>
 
@@ -13,8 +16,6 @@
 		<div class="header">
 			<ul id="h_menu">
 				<li><a href="index.html#contact">Contact</a></li>
-				<!--<li><a href="web.html">Web Solutions</a></li>
-				<li><a href="photography.html">Photography</a></li>-->
 				<li><a href="index.html#news">News</a></li>
 				<li><a href="index.html">Home</a></li>
 			</ul>
@@ -24,33 +25,61 @@
 			<div class="logo">
 				<a name="complete"></a>
 				<img src="images/cpSplashLogo.png" alt="Creative Pair Logo" />
-				<p class="splash"><em>Photography</em> &nbsp;and <em>Web Solutions</em>.  We're passionate about serving our customers through our gifts and talents.  </p>
+				<!--<p class="splash"><em>Photography</em> &nbsp;and <em>Web Solutions</em>.  We're passionate about serving our customers through our gifts and talents.  </p>-->
 			</div>
 		</div>	
 
 		<div class="newsandevents">
-			<div class="photographyevents">
-				<div class="wrap">
+			<div id="left_content_column">
+				<div class="slider">
+					<div class="owl-carousel owl-theme">
+						<div><img src="images/slider/slider01.jpg"></div>
+						<div><img src="images/slider/slider02.jpg"></div>
+						<div><img src="images/slider/slider03.jpg"></div>
+						<div><img src="images/slider/slider04.jpg"></div>
+						<div><img src="images/slider/slider05.jpg"></div>
+						<div><img src="images/slider/slider06.jpg"></div>
+						<div><img src="images/slider/slider07.jpg"></div>
+						<div><img src="images/slider/slider08.jpg"></div>
+						<div><img src="images/slider/slider09.jpg"></div>
+						<div><img src="images/slider/slider10.jpg"></div>												
+						<div><img src="images/slider/slider11.jpg"></div>	
+						<div><img src="images/slider/slider12.jpg"></div>	
+						<div><img src="images/slider/slider13.jpg"></div>	
+						<div><img src="images/slider/slider14.jpg"></div>	
+						<div><img src="images/slider/slider15.jpg"></div>	
+						<div><img src="images/slider/slider16.jpg"></div>	
+					</div>
+				</div>
+			</div>
+			
+			<div id="right_content_column">
 				<a name="news"></a>
+				<div class="wrap">
 					<h3>Photography News &amp; Events</h3>
-       				<div class="left_col">
-        				<a href="index.html#contact"><img src="images/news_wed.jpg"  alt="Book Your Wedding"></a>
-    				</div>
-   					 <div class="right_col">
-        				<h4><a href="index.html#contact" target="_new">Book Weddings Now</a></h4>
-      	      			<p>We're booking 2017 weddings now!  Contact us to reserve your date.</p>
-   					 </div>   					 
 				</div>
 				<div class="wrap">
-    				<div class="left_col">
-        				<a href="https://www.instagram.com/creativePair.us/" target="_new"><img src="images/news_instagram.jpg"  alt="We're on Instagram"></a>
-    				</div>
-   					 <div class="right_col">
-        				<h4><a href="https://www.instagram.com/creativePair.us/" target="_new">We're On Instagram</a></h4>
-      	      			<p>Follow us on Instagram to see our latest photos from some of our latest shoots.</p>
-   					 </div>
-				</div>
+					<div class="left_col">
+						<a href="index.html#contact"><img src="images/news_wedding.jpg"  alt="Book Your Wedding"></a>
+					</div>
+					<div class="right_col">
+						<h4><a href="index.html#contact">Book Weddings Now</a></h4>
+						<p>We're booking 2017 weddings now!  Contact us to reserve your date.</p>
+					</div>   					 
+				</div>		
 				<div class="wrap">
+					<div class="left_col">
+						<a href="https://www.instagram.com/creativePair.us/" target="_new"><img src="images/instagram.png"  alt="We're on Instagram"></a>
+					</div>
+					<div class="right_col">
+						<h4><a href="https://www.instagram.com/creativePair.us/" target="_new">We're On Instagram</a></h4>
+						<p>Follow us on Instagram to see our latest photos from some of our latest shoots.
+					</div>
+				</div>
+			</div>
+		</div>
+
+<!--				<div class="wrap">
     				<div class="left_col">
         				<a href="http://creativepair.shootproof.com/gallery/2710274/" target="_new"><img src="images/news_cambley.jpg"  alt="Cambley Family"></a>
     				</div>
@@ -58,59 +87,14 @@
         				<h4><a href="http://creativepair.shootproof.com/gallery/2710274/" target="_new">Cambley Family</a></h4>
       	      			<p>Meet the Cambleys.  A fun loving gang with just the right amount of attitude :-).  Lots of fun getting great pics.</p>
    					 </div>
-				</div>
-			</div>
-			<div class="webevents">
-				<div class="wrap">
-					<h3>Web News &amp; Events</h3>
-    				<div class="left_col">
-        				<a href="./index.html"><img src="images/news_website.jpg"  alt="Website Launch"></a>
-    				</div>
-   					 <div class="right_col">
-        				<h4><a href="./index.html">Website Launch</a></h4>
-      	      			<p>Our website is here!  But, we're not done yet....</p>
-   					 </div>
-				</div>
-				<div class="wrap">
-    				<div class="left_col">
-        				<a href="./index.html#contact"><img src="images/news_wordpress.jpg"  alt="Wordpress Hosting"></a>
-    				</div>
-   					 <div class="right_col">
-        				<h4><a href="./index.html#contact">Wordpress Hosting</a></h4>
-      	      			<p>Host your WordPress site with CreativePair.  Simple, easy and flexible.  Contact us for details.</p>
-   					 </div>
-				</div>
-				<div class="wrap">
-    				<div class="left_col">
-        				<a href="https://twitter.com/CreativePair_us" target="_new"><img src="images/news_twitter.jpg"  alt="Follow us on Twitter"></a>
-    				</div>
-   					 <div class="right_col">
-        				<h4><a href="https://twitter.com/CreativePair_us" target="_new">Follow Us!</a></h4>
-      	      			<p>Follow us on Twitter to see all of our udpates.</p>
-   					 </div>
-				</div>
-			</div>
-		</div>
-
-		<div class="photography">
-		</div>
-
-		<div class="web">
-		</div>
-
-		<div class="about">
-		</div>
-
+				</div>-->
+			
 		<div class="contact">
-			<div>
 				<div class="client_lead_form"><a name="contact" />
-            		<p>ARRRRGGHHH....you ready to contact us?</p>
-            		<iframe name="lc_contact_form" frameborder="0" width="100%" height="600" src="https://186170.17hats.com/embed/lead/form/ktkwzfnwdxkwdpckxzkxwdwffxvkftkz"></iframe><script type="text/javascript" src="https://186170.17hats.com/vendor/iframeSizer.min.js"></script>
-        		</div>
-      		</div>
+          <p>ARRRRGGHHH....you ready to contact us?</p>
+        	<iframe name="lc_contact_form" frameborder="0" width="100%" height="600" src="https://186170.17hats.com/embed/lead/form/ktkwzfnwdxkwdpckxzkxwdwffxvkftkz"></iframe><script type="text/javascript" src="https://186170.17hats.com/vendor/iframeSizer.min.js"></script>
+        </div>
 		</div>
 
-		<div class="footer">
-		</div>
 	</body>
 </html>
