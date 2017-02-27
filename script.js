@@ -11,4 +11,15 @@ $(document).ready(function() {
 	$('#h_menu li').mouseleave(function() {
 		$(this).css('background-color', '#333333');
 	});
+	/*$(".owl-carousel").owlCarousel();*/
+	$('.owl-carousel').owlCarousel({
+        items:1,
+        margin:10,
+        lazyLoad:true,
+				animateOut: 'fadeOut',
+				autoplay:true,
+    		autoplayTimeout:4000,
+    		autoplayHoverPause:false,
+				loop:true
+    })
 });
